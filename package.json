@@ -1,0 +1,16 @@
+{
+  "name": "truetosize",
+  "version": "1.0.0",
+  "description": "App will take in 'crowdsourced' true to size measurements and average them",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Dylan Barber",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "mocha": "^6.2.1"
+  }
+}
