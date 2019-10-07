@@ -2,9 +2,11 @@
   "name": "truetosize",
   "version": "1.0.0",
   "description": "App will take in 'crowdsourced' true to size measurements and average them",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "author": "Dylan Barber",
   "license": "ISC",
